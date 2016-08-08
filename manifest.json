@@ -1,0 +1,23 @@
+{
+"name": "wave",
+"version": "1.0",
+"manifest_version":2,
+"description": "name",
+"browser_action":{
+    "default_icon":"icon_128.png"
+},
+
+"permissions":[
+  
+    "http://www.twitter.com/"
+    ],
+  
+"app":{
+  "background":{
+    "scripts":["background.js"]
+              
+  }
+}
+
+
+} 
