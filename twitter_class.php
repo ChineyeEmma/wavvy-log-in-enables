@@ -1,8 +1,8 @@
 <?php
 class TwitterLoginAPI
 {
-	protected  $consumer_key	 = 'nUGGiiSyG8Pfu0p4I9xfBp2w2'; //Your Consumer Key
-	protected  $consumer_secret	 = 'uDCe9NmxncL0ttrE5iigR502eGJ8IddUX7mgsGx8Vr86IvXJ5t'; //Your Consumer Secret Key
+	protected  $consumer_key	 = 'xxxxxx'; //Your Consumer Key
+	protected  $consumer_secret	 = 'xxxxxx'; //Your Consumer Secret Key
 	protected  $oauth_callback	 = 'http://127.0.0.1';
 	
 	function login_twitter($twitter_connect = ''){
